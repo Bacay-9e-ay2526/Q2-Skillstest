@@ -1,0 +1,57 @@
+/* GENERAL STYLES */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* HERO SECTION */
+.hero-section {
+    background-image: url("Drone10+copy.webp");
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+/* DARK OVERLAY */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.65);
+    min-height: 100vh;
+}
+
+/* ENROLLMENT CARD */
+.enrollment-card {
+    max-width: 900px;
+    margin: auto;
+    border-radius: 12px;
+}
+
+/* SECTION TITLES */
+.section-title {
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: #0d6efd;
+}
+
+/* FORM ELEMENTS */
+.form-label {
+    font-weight: 500;
+}
+
+.form-control,
+.form-select {
+    border-radius: 6px;
+}
+
+/* BUTTON */
+.btn-primary {
+    padding: 10px 30px;
+    font-size: 1rem;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #212529;
+    font-size: 0.9rem;
+}
